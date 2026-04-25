@@ -274,29 +274,52 @@
     .brush-divider p.bn { font-family: var(--bengali); letter-spacing: 0; font-size: 0.88rem; color: rgba(255,255,255,0.3); }
 
     /* ─── OUTREACH ─── */
-    .outreach { background: var(--dark); }
-    .outreach .section-title { color: #fff; }
-    .outreach .section-title-bn { color: rgba(255,255,255,0.5); }
-    .outreach .section-sub { color: rgba(255,255,255,0.58); }
-    .outreach .section-sub-bn { color: rgba(255,255,255,0.35); }
-    .outreach .section-tag { color: var(--gold); }
-    .outreach .section-tag-bn { color: rgba(201,168,76,0.7); }
-    .outreach-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; margin-top: 3rem; }
-    .outreach-card { position: relative; border-radius: 12px; overflow: hidden; aspect-ratio: 4/3; }
-    .outreach-card img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; display: block; }
-    .outreach-card:hover img { transform: scale(1.06); }
-    .outreach-card .overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(7,20,18,0.88) 0%, transparent 55%); display: flex; align-items: flex-end; padding: 1.2rem; }
-    .outreach-card .overlay p { color: #fff; font-size: 0.8rem; letter-spacing: 0.05em; line-height: 1.4; }
-    .outreach-card .overlay p span { display: block; font-family: var(--bengali); font-size: 0.82rem; color: rgba(255,255,255,0.65); margin-top: 0.2rem; }
+    <section class="outreach">
+  <h2 class="section-title">Our Outreach</h2>
+
+  <div class="outreach-grid">
+
+    <div class="outreach-card">
+      <img src="https://via.placeholder.com/500x400" alt="Outreach">
+      <div class="overlay">
+        <p>
+          Free Dental Camp
+          <span>ফ্রি ডেন্টাল ক্যাম্প</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="outreach-card">
+      <img src="https://via.placeholder.com/500x400" alt="Outreach">
+      <div class="overlay">
+        <p>
+          Awareness Program
+          <span>সচেতনতা কর্মসূচি</span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     /* ─── BEFORE AFTER ─── */
-        .results { background: var(--mist); }
-    .ba-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem; }
-    .ba-card { border-radius: 14px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.08); }
-    .ba-label { background: #e74c3c; color: #fff; text-align: center; padding: 0.65rem; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 700; }
-    .ba-label span.bn { font-family: var(--bengali); letter-spacing: 0; font-size: 0.8rem; font-weight: 400; margin-left: 0.5rem; opacity: 0.85; }
-    .ba-label.after { background: var(--teal); }
-    .ba-card img { width: 100%; display: block; object-fit: cover; aspect-ratio: 4/3; }
+       <section class="results">
+  <h2 class="section-title">Before & After</h2>
+
+  <div class="ba-wrap">
+
+    <div class="ba-card">
+      <div class="ba-label">Before</div>
+      <img src="https://via.placeholder.com/500x400" alt="Before">
+    </div>
+
+    <div class="ba-card">
+      <div class="ba-label after">After</div>
+      <img src="https://via.placeholder.com/500x400" alt="After">
+    </div>
+
+  </div>
+</section>
 
 
     /* ─── KIDS ─── */
